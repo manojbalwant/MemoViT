@@ -92,16 +92,6 @@ MemoViT/
 
 `scoring.py` (Eq. 7) and `metrics.py` (Eqs. 9–12) are the shared, unit-tested modules; the per-benchmark scripts import the scorer from `scoring.py` so the reported metric has a single definition.
 
-**Mapping from the development scripts** (rename when committing):
-
-| Development file | Repository file |
-|---|---|
-| `Rough_train_val_VIT_Explainable-trial.py` | `src/aerial_memovit.py` |
-| `Rough_Baselines_Memory_Bank.py` | `src/baselines.py` |
-| `Rough_Ablation_Study.py` | `src/ablation.py` |
-| `mvtec_dinov2_anomaly.py` | `src/mvtec_visa_memovit.py` |
-| `runpod_VIT_Memory_Agriculture_.py` | `src/agriculture_memovit.py` |
-
 ## Reproducing the paper
 
 Each pipeline exposes a configuration block (`BenchmarkConfig` / `BaseConfig`) at the top; set dataset paths and output directories there before running. A single entry point dispatches to any benchmark:
