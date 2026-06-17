@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use MemoViT, please cite the following."
+title: "MemoViT: Zero-Shot Aerial Anomaly Detection and Localization via a Frozen DINOv2 Multi-Layer CLS Memory Bank and k-NN Patch Discrepancy"
+authors:
+  - family-names: Balwant
+    given-names: Manoj Kumar
+    affiliation: "Indian Institute of Technology Patna; UP Rajarshi Tandon Open University"
+    email: manoj_2021cs20@iitp.ac.in
+  - family-names: Misra
+    given-names: Rajiv
+    affiliation: "Indian Institute of Technology Patna"
+    email: rajivm@iitp.ac.in
+repository-code: "https://github.com/manojbalwant/MemoViT"
+license: MIT
+keywords:
+  - anomaly detection
+  - aerial imagery
+  - DINOv2
+  - vision transformer
+  - memory bank
+  - one-class learning
+  - zero-shot
+preferred-citation:
+  type: article
+  title: "MemoViT: Zero-Shot Aerial Anomaly Detection and Localization via a Frozen DINOv2 Multi-Layer CLS Memory Bank and k-NN Patch Discrepancy"
+  authors:
+    - family-names: Balwant
+      given-names: Manoj Kumar
+    - family-names: Misra
+      given-names: Rajiv
+  year: 2025
+  notes: "Preprint submitted to Elsevier."

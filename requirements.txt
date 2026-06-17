@@ -1,0 +1,17 @@
+# Core
+torch==1.12.1            # reference build; any recent PyTorch works with a DINOv2-capable timm
+torchvision>=0.13.1
+timm>=0.9.2              # provides vit_base_patch14_dinov2 + pretrained weights
+numpy>=1.21
+scipy>=1.7              # scipy.ndimage.gaussian_filter (heatmap smoothing)
+scikit-learn>=1.0       # sklearn.metrics.roc_auc_score, EER
+opencv-python>=4.5      # BGR->RGB frame reading for aerial/industrial pipelines
+tqdm>=4.62
+Pillow>=9.0
+
+# Nearest-neighbour retrieval (choose ONE)
+faiss-cpu>=1.7.2
+# faiss-gpu>=1.7.2      # install instead of faiss-cpu for GPU cosine retrieval
+
+# Optional: progress/plotting for ablation curves
+matplotlib>=3.5
