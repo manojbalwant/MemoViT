@@ -72,7 +72,6 @@ All inputs are resized to **518 × 518** (P = 1,369 patch tokens). See [`REPRODU
 MemoViT/
 ├── README.md
 ├── REPRODUCIBILITY.md        # per-benchmark settings + known issues + checklist
-├── CHANGELOG.md              # what changed in the reproducible release
 ├── run.py                    # unified CLI: dispatches to any benchmark pipeline
 ├── requirements.txt
 ├── CITATION.cff
