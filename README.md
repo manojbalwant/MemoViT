@@ -50,7 +50,7 @@ conda activate memovit
 pip install -r requirements.txt
 ```
 
-FAISS is installed via pip (`faiss-cpu`) by default. For GPU retrieval, install `faiss-gpu` matching your CUDA build instead. The reference environment used PyTorch 1.12.1 / CUDA 10.2 on a single NVIDIA A100 80 GB; any recent PyTorch with a `timm` that ships DINOv2 weights (≥ 0.9.2) will work.
+FAISS is installed via pip (`faiss-cpu`) by default. For GPU retrieval, install `faiss-gpu` matching your CUDA build instead. The reference environment used PyTorch 1.12.1 / CUDA 10.2; any recent PyTorch with a `timm` that ships DINOv2 weights (≥ 0.9.2) will work.
 
 ## Datasets
 
