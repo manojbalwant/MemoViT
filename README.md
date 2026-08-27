@@ -1,6 +1,6 @@
 # MemoViT
 
-**Zero-Shot Aerial Anomaly Detection and Localization via a Frozen DINOv2 Multi-Layer CLS Memory Bank and k-NN Patch Discrepancy**
+**MemoViT: Training-Free Aerial Anomaly Detection and Localisation via a Frozen DINOv2 Multi-Layer CLS Memory Bank and k-NN Patch Discrepancy**
 
 Manoj Kumar Balwant¹², Rajiv Misra¹
 ¹ Dept. of Computer Science and Engineering, Indian Institute of Technology Patna, India
@@ -130,8 +130,7 @@ If you use MemoViT, please cite the paper (see [`CITATION.cff`](CITATION.cff)):
 
 ```bibtex
 @article{balwant2025memovit,
-  title   = {MemoViT: Zero-Shot Aerial Anomaly Detection and Localization via a
-             Frozen DINOv2 Multi-Layer CLS Memory Bank and k-NN Patch Discrepancy},
+  title   = {MemoViT: Training-Free Aerial Anomaly Detection and Localisation via a Frozen DINOv2 Multi-Layer CLS Memory Bank and k-NN Patch Discrepancy},
   author  = {Balwant, Manoj Kumar and Misra, Rajiv},
   journal = {Preprint submitted to Elsevier},
   year    = {2025}
