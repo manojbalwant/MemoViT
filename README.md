@@ -34,7 +34,7 @@ reported runs are in `results/scores/`.
 
 ## Pixel annotations
 Masks for DA-BikeRbt, DA-Railway, DA-Solar, DA-Farmland and DA-Highway:
-[Zenodo DOI]. See `annotations/README.md` for the format and procedure.
+[Click here to access the file](https://drive.google.com/drive/folders/1N-ep7cC1AFDhovt4ZhRBrw0cw5UxBpa-?usp=sharing). See `annotations/README.md` for the format and procedure.
 Their use is subject to the licence of the Drone-Anomaly dataset.
 
 ## Citation
