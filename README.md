@@ -24,14 +24,6 @@ dataset/<Dataset>/<Scene>/test/test_frame_mask/<video>.npy
 dataset/<Dataset>/<Scene>/test/test_pixel_mask/<video>/<frame>_mask.png   # our annotations
 ```
 
-## Reproducing the results
-```bash
-bash run_article.sh
-```
-All hyperparameters are loaded from the frozen files in `configs/`
-(tags `frozen-v1` and `frozen-industrial-v1`). Per-frame scores of all
-reported runs are in `results/scores/`.
-
 ## Pixel annotations
 Masks for DA-BikeRbt, DA-Railway, DA-Solar, DA-Farmland and DA-Highway:
 [Click here to access the file](https://drive.google.com/drive/folders/1N-ep7cC1AFDhovt4ZhRBrw0cw5UxBpa-?usp=sharing). See `annotations/README.md` for the format and procedure.
